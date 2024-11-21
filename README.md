@@ -21,7 +21,7 @@ Write new API Checks and Playwright-powered Browser Checks in the `__checks__` f
 
 Optionally, export checks from your Checkly account and add to the `__checks__` folder. This can be done by following steps below:
 - Navigate to your account home.
-- Click on the vertical ellipsis of your desired check.
+- Click on the vertical ellipsis, ![alt text](image.png), of your desired check. 
 - Click “Export to code”, then the “Download all files” button near the bottom of the pop up.
 - Move this downloaded file to the previously created `__checks__` folder where your other tests live.
 
@@ -39,9 +39,9 @@ npx checkly deploy
 ```
 
 ## Adding email alerts
-To receive emails when your checks fail, please navigate to the alerts section in your Checkly account, or follow this link: https://app.checklyhq.com/alerts/settings/channels/new/email
+To receive emails when your checks fail, please navigate to the alerts section in your Checkly account to update your settings, or follow this direct link to add email alerts: https://app.checklyhq.com/alerts/settings/channels/new/email
 
-## Integrating checks to your CI/CD pipeline
+## Integrating Checkly to your CI/CD pipeline
 Depending on your preferred platform, please click on the corresponding link below to view step-by-step instructions to integrate Checkly into your CI/CD pipeline:
 - Overview of Checkly integration: https://www.checklyhq.com/docs/cicd/
 - GitHub Actions: https://www.checklyhq.com/docs/cicd/github-actions/
@@ -82,4 +82,3 @@ Run the core CLI commands with `npx checkly <command>`
 Check [our CLI docs](https://www.checklyhq.com/docs/cli/), the [main Checkly docs](https://checklyhq.com/docs) or 
 join our [Slack community](https://checklyhq.com/slack).
 For additional questions or clarification, please reach out to me via email at name@email.com.
-# ChecklySupport
