@@ -21,7 +21,7 @@ Write new API Checks and Playwright-powered Browser Checks in the `__checks__` f
 
 Optionally, export checks from your Checkly account and add to the `__checks__` folder. This can be done by following steps below:
 - Navigate to your account home.
-- Click on the vertical ellipsis, ![alt text](image.png), of your desired check. 
+- Click on the vertical ellipsis "⋮" of your desired check. 
 - Click “Export to code”, then the “Download all files” button near the bottom of the pop up.
 - Move this downloaded file to the previously created `__checks__` folder where your other tests live.
 
